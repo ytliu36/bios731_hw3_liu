@@ -10,16 +10,15 @@
 #SBATCH --output=sim_%A_%a.out
 #SBATCH --partition=day-long-cpu,wrobel
 #SBATCH --array=1-4
+
 ## in total 4 scenarios 
 # activate conda environment
 module load R
 # Set working directory
-workDir="/scratch/BIOS731/bios731_hw2_liu/"
+workDir="/scratch/BIOS731/ytliu/bios731_hw3_liu/"
 
 # Use the array task ID to specify the sim run
 n_sim=${SLURM_ARRAY_TASK_ID}
-
-mkdir -p /projects/chang/yutong/coeQTL/sim_no_beta1/
 
 cd "${workDir}"
 
