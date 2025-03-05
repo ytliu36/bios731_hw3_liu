@@ -285,12 +285,6 @@ Write 1-2 paragraphs summarizing these results.
 
 Based on the results above we have following results:
 
-1. Estimates from normal error are almost non-bias, while we tend to overestimate under gamma error, because gamma random errors are always positive. Meanwhile, the standard error in normal is larger than gamma, which is because gamma with shape 1 rate 2 has a smaller variance than normal N(0,2).
-
-2. Wald tend to have a better coverage than Bootstrap under the 4 scenarios
-
-3. In terms of hypothesis testing, the power of both methods under normal error have a much better power compared to gamma error scenario.
-
-4. Only under gamma error the wald estimate provide a type I error around 0.05, while all others are over 0.05, bootstrap is getting a larger type I error compared to wald uder both scenarios.
+Estimates from normal error are almost non-bias, while we tend to overestimate under gamma error, because gamma random errors are always positive. Meanwhile, the standard error in normal is larger than gamma, which is because gamma with shape 1 rate 2 has a smaller variance than normal N(0,2). Wald tend to have a better coverage than Bootstrap under the 4 scenarios. In terms of hypothesis testing, the power of both methods under normal error have a much better power compared to gamma error scenario. Only under gamma error the wald estimate provide a type I error around 0.05, while all others are over 0.05, bootstrap is getting a larger type I error compared to wald uder both scenarios.
 
 
